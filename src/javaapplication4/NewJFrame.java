@@ -23,6 +23,7 @@ public class NewJFrame extends javax.swing.JFrame {
         String id,nombre,precio,cantidad,subtotal;
         int sub;
         int cant,sub_total;
+        System.out.println("hola mundo");
         id = txt_id.getText();
         nombre = txt_nombre.getText();
         precio = txt_precio.getText();
